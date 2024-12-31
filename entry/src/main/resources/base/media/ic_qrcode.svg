@@ -1,0 +1,14 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 外框 -->
+    <rect x="8" y="8" width="32" height="32" stroke="black" stroke-width="2" fill="none"/>
+
+    <!-- 左上角方块 -->
+    <rect x="12" y="12" width="8" height="8" fill="black"/>
+    <!-- 右上角方块 -->
+    <rect x="28" y="12" width="8" height="8" fill="black"/>
+    <!-- 左下角方块 -->
+    <rect x="12" y="28" width="8" height="8" fill="black"/>
+
+    <!-- 中间点 -->
+    <rect x="22" y="22" width="4" height="4" fill="black"/>
+</svg>

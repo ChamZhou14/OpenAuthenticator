@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "0000002063255346AC19A63793E7C8670F1F0DD69AB8118E6E36613F86965969A97F39DF1F664B05C5B753E43D787432",
+          "certpath": "/Users/chamzhou/huawei.cer",
+          "keyAlias": "hw",
+          "keyPassword": "00000020702353C4A3E4F4C9A717E63A62C69197AE5B482F2C904CB4FB30237DA93086A13FCD5D739D0E20A3DD90D6A1",
+          "profile": "/Users/chamzhou/huaweiRelease.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/chamzhou/huawei.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.1(13)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
