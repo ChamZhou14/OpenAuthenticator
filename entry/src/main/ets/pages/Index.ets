@@ -446,7 +446,7 @@ struct Index {
     Stack() {
       Column() {
         Row() {
-          Text('OpenAuthenticator')
+          Text('AtomAuth')
             .fontSize(24)
             .fontWeight(FontWeight.Bold)
         }

@@ -10,7 +10,7 @@
     },
     {
       "name": "EntryAbility_label",
-      "value": "OpenAuthenticator"
+      "value": "AtomAuth"
     },
     {
       "name": "camera_reason",
@@ -26,7 +26,7 @@
     },
     {
       "name": "app_name",
-      "value": "OpenAuthenticator"
+      "value": "AtomAuth"
     }
   ]
 }

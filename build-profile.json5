@@ -5,13 +5,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "storePassword": "0000002063255346AC19A63793E7C8670F1F0DD69AB8118E6E36613F86965969A97F39DF1F664B05C5B753E43D787432",
-          "certpath": "/Users/chamzhou/huawei.cer",
-          "keyAlias": "hw",
-          "keyPassword": "00000020702353C4A3E4F4C9A717E63A62C69197AE5B482F2C904CB4FB30237DA93086A13FCD5D739D0E20A3DD90D6A1",
-          "profile": "/Users/chamzhou/huaweiRelease.p7b",
+          "certpath": "/Users/chamzhou/.ohos/config/default_AtomAuth__cmk4bPPLxFXfZnRu-vTKviuWqdVXx75wWEHRnXgpLw=.cer",
+          "storePassword": "0000001A387689AAAD859731F33284CAE2B993499CB4EE64AE9784DF1B6B4A868BB5D72386F19BD64B0B",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A6BCEBC022546BA6759C4F411F73B7803E4A8B53C058C60F96CAD668A82C2C4002CFCEDEF3EA2",
+          "profile": "/Users/chamzhou/.ohos/config/default_AtomAuth__cmk4bPPLxFXfZnRu-vTKviuWqdVXx75wWEHRnXgpLw=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "/Users/chamzhou/huawei.p12"
+          "storeFile": "/Users/chamzhou/.ohos/config/default_AtomAuth__cmk4bPPLxFXfZnRu-vTKviuWqdVXx75wWEHRnXgpLw=.p12"
         }
       }
     ],

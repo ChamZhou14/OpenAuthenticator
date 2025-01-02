@@ -1,1 +1,1 @@
-# OpenAuthenticator
+# AtomAuth
